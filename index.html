@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Météo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="meteo">
+            <header class="firstheader">
+                <h3>
+                    Weather App
+                </h3>
+            </header>
+            <div class="error">
+                <div class="msg">
+                    <span class="wrongcity"></span>
+                    <p>&nbsp;is not a city.</p>
+                </div>
+            </div>
+            <input type="text" placeholder="Enter a city ...">
+        </div>
+        <div class="result">
+            <header class="secondheader">
+                <img class="return" src="icons/left-arrow.png">
+                <h3>
+                    Weather App
+                </h3>
+            </header>
+            <section class="middle-part">
+                <img class="weather" src="img/cloud.png">
+                <div class="degrees">
+                    <p class="temp">19</p>
+                    <p class="typedegrees">°C</p>
+                </div>
+                <p class="typeweather">Cloudy</p>
+                <div class="localization">
+                    <img src="icons/location.png">
+                    <p class="city">Paris</p>
+                    <p>,&nbsp;</p>
+                    <p class="country">France</p>
+                </div>
+            </section>
+            <footer>
+                <div class="left-part">
+                    <img src="icons/thermostat.png">
+                    <div class="feels">
+                        <div class="degrees2">
+                            <p class="temp2">21</p>
+                            <p class="typedegrees2">°C</p>
+                        </div>
+                        <p>Feels like</p>
+                    </div>
+                </div>
+                <div class="right-part">
+                    <img src="icons/thermostat.png">
+                    <div class="humidity">
+                        <div class="percenthumidity">
+                            <p class="numhumidity">93</p>
+                            <p class="percentage">%</p>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
